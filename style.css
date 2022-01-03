@@ -1,0 +1,29 @@
+body {
+  font-family: "Source Code Pro";
+}
+
+#charset {
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+label {
+  width: 120px;
+}
+
+.passwords {
+  background: #34495e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 2px;
+}
+.passwords input {
+  width: 100%;
+  display: block;
+  color: #000;
+}
+
+.container {
+  margin-top: 20px;
+}

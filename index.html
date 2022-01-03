@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'><link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600' rel='stylesheet' type='text/css'>
+
+<div class="container">
+  <h4>Password Generator</h4>
+  <div class="row">
+    <div class="eight columns">
+      <p><label for="">Length:</label> <input id="length" type="number" value="12"/> <br />
+        <label for="">Characters:</label>
+        <input type="text" value='12345677890!@£$%^&*()-=_+qwertyuiopasdfghjklzxcvbnmQWERTYUIOPSDFGHJKLZXCVBNM[]{};:"\|,<.>/?' id="charset" />
+        <button id="generate">Generate</button>
+      </p>
+    </div>
+    <div class="four columns passwords">
+      <p>Passwords will appear here:</p>
+      <div id="passwords"></div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
